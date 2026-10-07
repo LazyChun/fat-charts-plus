@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "a7c4e8f1-3d5b-4a9c-8e2f-7b6d1c9a4e5f",
+  "type": "bespokePlugin",
+  "name": "Fat Charts",
+  "description": "提供趋势图、数值、分布、排行、蜂窝和仪表盘等图表块，把查询结果画成可配置的可视化组件。",
+  "shortDesc": "图表组件",
+  "category": "chart",
+  "keywords": ["图表", "趋势图", "仪表盘", "排行", "echarts"],
+  "engines": { "fat-notes": ">=1.0.0" },
+  "features": [
+    {
+      "id": "trend-chart",
+      "name": "趋势图",
+      "description": "把时序数据画成折线或柱状图，适合看指标随时间变化。",
+      "match": "(趋势图|折线图|时序图|trend\\s*chart)"
+    },
+    {
+      "id": "number-chart",
+      "name": "数值",
+      "description": "用大号数字展示一个或一组当前指标。",
+      "match": "(数值卡|指标卡|number\\s*chart)"
+    },
+    {
+      "id": "distribution-chart",
+      "name": "分布图",
+      "description": "展示数据在区间或类别上的分布。",
+      "match": "(分布图|直方图|distribution)"
+    },
+    {
+      "id": "rank-chart",
+      "name": "排行",
+      "description": "按指标把条目排成名次列表或条形排行。",
+      "match": "(排行|排名|rank)"
+    },
+    {
+      "id": "honey-chart",
+      "name": "蜂窝图",
+      "description": "用蜂窝格子同时看很多对象的状态。",
+      "match": "(蜂窝|honeycomb|honey\\s*chart)"
+    },
+    {
+      "id": "dial-chart",
+      "name": "仪表盘",
+      "description": "用刻度盘展示单个指标的当前值。",
+      "match": "(仪表盘|刻度盘|dial)"
+    }
+  ]
+}
