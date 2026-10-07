@@ -6,8 +6,16 @@
   "description": "提供趋势图、数值、分布、排行、蜂窝和仪表盘等图表块，把查询结果画成可配置的可视化组件。",
   "shortDesc": "图表组件",
   "category": "chart",
-  "keywords": ["图表", "趋势图", "仪表盘", "排行", "echarts"],
-  "engines": { "fat-notes": ">=1.0.0" },
+  "keywords": [
+    "图表",
+    "趋势图",
+    "仪表盘",
+    "排行",
+    "echarts"
+  ],
+  "engines": {
+    "fat-notes": ">=1.0.0"
+  },
   "features": [
     {
       "id": "trend-chart",
@@ -45,5 +53,7 @@
       "description": "用刻度盘展示单个指标的当前值。",
       "match": "(仪表盘|刻度盘|dial)"
     }
-  ]
+  ],
+  "version": "0.1.0",
+  "packageFile": "图表_v0.1.0.zip"
 }
