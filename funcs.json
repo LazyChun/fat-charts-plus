@@ -55,5 +55,6 @@
     }
   ],
   "version": "0.1.0",
-  "packageFile": "图表_v0.1.0.zip"
+  "packageFile": "fat-charts_v0.1.0.zip",
+  "code": "fat-charts"
 }
